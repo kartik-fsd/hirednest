@@ -7,7 +7,7 @@ import LoadingSpinner from "@/components/UI/loading-spinner";
 
 // Lazy load components
 const ServiceOverview = React.lazy(() =>
-  import("@/components/services/serviceOverview")
+  import("@/components/services/ServiceOverview")
 );
 const ServiceFaqs = React.lazy(() =>
   import("@/components/services/ServicesFAQ")
