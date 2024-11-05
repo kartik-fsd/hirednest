@@ -61,7 +61,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Hired Nest | Your Professional Job Search Platform',
     description: 'Find your dream job with AI-powered job matching and career development tools',
-    creator: '@hirednest', // Add your Twitter handle
+    creator: 'kartik shettar', // Add your Twitter handle
     images: ['/twitter-image.png'], // Add your Twitter card image
   },
   robots: {
