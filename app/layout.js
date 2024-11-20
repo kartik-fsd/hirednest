@@ -1,7 +1,7 @@
 import "./globals.css";
 import Navbar from "@/components/header/page";
 import Footer from "@/components/footer/page";
-// import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { GoogleTagManager } from '@next/third-parties/google';
 
 export const viewport = {
@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
           sizes="180x180"
         />
         <link rel="manifest" href="/manifest.json" />
-        {/* <GoogleAnalytics gaId='G-DC4ZJNJ7BH' /> */}
+        <GoogleAnalytics gaId='G-YWRM0HKBDY' />
         <GoogleTagManager gtmId='GTM-TVH8LBLV' />
       </head>
       <body className="flex min-h-full flex-col antialiased">
