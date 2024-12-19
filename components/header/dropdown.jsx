@@ -71,24 +71,26 @@ const services = [
 const ServiceCard = ({ service }) => {
   const Icon = service.icon;
   return (
-    <Link
-      href={service.href}
-      className="flex items-start p-4 rounded-xl hover:bg-gray-50 transition-colors duration-200 group"
-    >
-      <div
-        className={`${service.bgColor} ${service.color} p-2 rounded-lg mr-4 mt-1 group-hover:scale-110 transition-transform duration-200`}
+    <PopoverButton as={Fragment}>
+      <Link
+        href={service.href}
+        className="flex items-start p-4 rounded-xl hover:bg-gray-50 transition-colors duration-200 group"
       >
-        <Icon className="h-5 w-5" />
-      </div>
-      <div>
-        <h3 className="font-medium text-gray-900 mb-1 group-hover:text-green-700 transition-colors">
-          {service.title}
-        </h3>
-        <p className="text-sm text-gray-500 leading-relaxed">
-          {service.description}
-        </p>
-      </div>
-    </Link>
+        <div
+          className={`${service.bgColor} ${service.color} p-2 rounded-lg mr-4 mt-1 group-hover:scale-110 transition-transform duration-200`}
+        >
+          <Icon className="h-5 w-5" />
+        </div>
+        <div>
+          <h3 className="font-medium text-gray-900 mb-1 group-hover:text-green-700 transition-colors">
+            {service.title}
+          </h3>
+          <p className="text-sm text-gray-500 leading-relaxed">
+            {service.description}
+          </p>
+        </div>
+      </Link>
+    </PopoverButton>
   );
 };
 
@@ -97,7 +99,7 @@ export default function ServicesDropdown() {
     <Popover className="relative">
       {({ open }) => (
         <>
-          <PopoverButton className="group inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-green-950 hover:text-green-900 focus:outline-none">
+          <Popover.Button className="group inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-green-950 hover:text-green-900 focus:outline-none">
             Our Services
             <ChevronDownIcon
               className={`h-5 w-5 text-green-950 group-hover:text-green-900 transition-transform duration-200 ${
@@ -105,7 +107,7 @@ export default function ServicesDropdown() {
               }`}
               aria-hidden="true"
             />
-          </PopoverButton>
+          </Popover.Button>
 
           <Transition
             as={Fragment}

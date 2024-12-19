@@ -5,9 +5,9 @@ export const servicesContent = {
             "Transform your workforce management with our flexible staffing solutions. We connect businesses with skilled professionals while providing comprehensive management tools and support for optimal workforce efficiency.",
         overview: [
             {
-                title: "Talent Matching",
+                title: "Expert Talent Matching",
                 content:
-                    "Our AI-powered matching system combined with human expertise ensures perfect alignment between your requirements and professional skills. We consider technical capabilities, cultural fit, and availability to provide the best matches.",
+                    "Our experienced recruitment team ensures perfect alignment between your requirements and professional skills. We consider technical capabilities, cultural fit, and availability to provide the best matches.",
             },
             {
                 title: "Flexible Engagement Models",
@@ -82,10 +82,9 @@ export const servicesContent = {
                     "We track comprehensive metrics including Customer Acquisition Cost (CAC), Conversion Rates, Return on Ad Spend (ROAS), Customer Lifetime Value (CLV), Merchant Retention Rates, and overall ROI. Our analytics dashboard provides real-time insights into campaign performance.",
             },
             {
-                question:
-                    "How do you identify and target potential customers/merchants?",
+                question: "How do you identify and target potential customers/merchants?",
                 answer:
-                    "We use a combination of market research, data analytics, behavioral analysis, and predictive modeling to identify high-potential targets. Our approach includes demographic analysis, lookalike modeling, and intent-based targeting.",
+                    "We use a combination of market research, data analytics, behavioral analysis, and industry expertise to identify high-potential targets. Our approach includes demographic analysis and intent-based targeting.",
             },
             {
                 question: "What channels do you use for acquisition?",
@@ -153,12 +152,12 @@ export const servicesContent = {
     "talent-recruitment": {
         title: "Talent Recruitment & Staffing",
         description:
-            "Transform your hiring process with our advanced recruitment and staffing solutions. We combine AI-powered matching technology with human expertise to deliver exceptional talent acquisition results.",
+            "Transform your hiring process with our advanced recruitment and staffing solutions. We combine expert matchmaking with extensive industry knowledge to deliver exceptional talent acquisition results.",
         overview: [
             {
-                title: "AI-Powered Matching",
+                title: "Expert Matching Process",
                 content:
-                    "Utilize advanced algorithms and machine learning to match candidates with opportunities. Our system considers skills, experience, cultural fit, and career aspirations to ensure perfect matches.",
+                    "Our experienced recruitment team evaluates candidates based on skills, experience, cultural fit, and career aspirations to ensure perfect matches for your organization.",
             },
             {
                 title: "End-to-End Recruitment",
@@ -185,7 +184,7 @@ export const servicesContent = {
             {
                 question: "How do you ensure candidate quality?",
                 answer:
-                    "We implement a multi-stage screening process including skill assessments, behavioral interviews, technical evaluations, background checks, and reference verifications. Our AI system also helps predict candidate success based on historical data.",
+                    "We implement a multi-stage screening process including skill assessments, behavioral interviews, technical evaluations, background checks, and reference verifications. Our experienced recruiters evaluate candidates based on proven success indicators.",
             },
             {
                 question: "What industries do you specialize in?",
@@ -206,9 +205,9 @@ export const servicesContent = {
             "Streamline your payroll management with our end-to-end payroll solutions. We handle everything from salary calculations to compliance reporting, allowing you to focus on growing your business.",
         overview: [
             {
-                title: "Automated Processing",
+                title: "Efficient Processing",
                 content:
-                    "Leverage our automated payroll processing system for accurate and timely salary disbursements. Handle multiple pay schedules, variable payments, and complex calculations effortlessly.",
+                    "Leverage our streamlined payroll processing system for accurate and timely salary disbursements. Handle multiple pay schedules, variable payments, and complex calculations effortlessly.",
             },
             {
                 title: "Compliance Management",
@@ -268,7 +267,7 @@ export const servicesContent = {
             {
                 title: "Technology Integration",
                 content:
-                    "Leverage advanced technology solutions including automation, AI, and analytics to enhance process efficiency. We integrate with your existing systems while introducing innovative solutions.",
+                    "Leverage advanced technology solutions including process automation and analytics to enhance efficiency. We integrate with your existing systems while introducing innovative solutions.",
             },
             {
                 title: "Scalable Solutions",
