@@ -71,7 +71,7 @@ export default function Footer() {
                 "FAQs",
                 "Blog",
                 "Privacy Policy",
-                "Terms & Conditions",
+                "Terms-Conditions",
               ].map((item) => (
                 <li key={item}>
                   <Link
@@ -106,18 +106,19 @@ export default function Footer() {
               Contact Info
             </h2>
             <address className="not-italic text-sm text-green-700 space-y-1">
-              <p>Business Center</p>
-              <p>Bangalore, India</p>
               <p>
                 Email:{" "}
                 <Link
-                  href="mailto:info@hirednest.com"
+                  href="mailto:business@hirednest.com"
                   className="hover:text-green-900 transition-colors duration-200"
                 >
-                  info@hirednest.com
+                  business@hirednest.com
                 </Link>
               </p>
-              <p>Phone: Contact support for assistance</p>
+              <p>Phone: 9158780986</p>
+              <p> SN-34/1, KHARADI ROAD, MAHAPALIKEMADHYE SAMAVISHTA</p>
+              <p> SHREE DATTA HOTEL, YASHWANT NAGAR</p>
+              <p>MAHARASHTRA, 411014, PUNE CITY, PIN: 411014</p>
             </address>
           </div>
         </div>

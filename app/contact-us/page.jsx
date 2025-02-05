@@ -251,23 +251,13 @@ export default function ContactUs() {
                   Contact Information
                 </h2>
                 <div className="space-y-6">
-                  <div className="flex items-start">
-                    <MapPin
-                      className="flex-shrink-0 h-6 w-6 text-green-600"
-                      aria-hidden="true"
-                    />
-                    <div className="ml-3 text-base text-gray-500">
-                      <p>34/1 Hired Nest</p>
-                      <p>Tukaram Nagar. Kharadi, Pune 411014</p>
-                    </div>
-                  </div>
                   <div className="flex items-center">
                     <Phone
                       className="flex-shrink-0 h-6 w-6 text-green-600"
                       aria-hidden="true"
                     />
                     <div className="ml-3 text-base text-gray-500">
-                      +91 9130007864
+                      +91 9158780986
                     </div>
                   </div>
                   <div className="flex items-center">
@@ -276,8 +266,20 @@ export default function ContactUs() {
                       aria-hidden="true"
                     />
                     <div className="ml-3 text-base text-gray-500">
-                      Business@hirednest.com
+                      business@hirednest.com
                     </div>
+                  </div>
+                  <div className="flex items-start">
+                    <MapPin
+                      className="flex-shrink-0 h-6 w-6 text-green-600"
+                      aria-hidden="true"
+                    />
+                    <address className="ml-3 text-base text-gray-500">
+                      <p>Phone: 9158780986</p>
+                      <p> SN-34/1, KHARADI ROAD, MAHAPALIKEMADHYE SAMAVISHTA</p>
+                      <p> SHREE DATTA HOTEL, YASHWANT NAGAR</p>
+                      <p>MAHARASHTRA PUNE CITY, PIN: 411014</p>
+                    </address>
                   </div>
                   <div className="flex items-center">
                     <Globe
